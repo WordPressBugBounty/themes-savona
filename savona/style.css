@@ -3,10 +3,10 @@ Theme Name: Savona
 Theme URI: http://optimathemes.com/savona-theme/
 Author: Aslam
 Author URI: http://optimathemes.com/
-Description: Savona is a free, versatile WordPress theme designed for blogs and websites of all kinds. Perfect for fashion, travel, health, fitness, beauty, lifestyle, food, news, magazine, personal, professional, and tech sites, Savona offers a clean, modern, and minimal design that is fully responsive and Retina-ready. This theme is also WooCommerce compatible, making it ideal for eCommerce sites, and it’s built with SEO-friendly code to enhance your search engine rankings. Additionally, Savona supports RTL (Right To Left) languages, ensuring global accessibility. Demo: https://optimathemes.com/savona-free/demo?ref=demo
-Version: 1.0.25
+Description: Savona is a free, versatile WordPress theme designed for blog and websites of all kinds. Perfect for fashion, travel, health, fitness, beauty, lifestyle, food, news, magazine, personal, professional, and tech sites, Savona offers a clean, modern, and minimal design that is fully responsive and Retina-ready. This theme is also WooCommerce compatible, making it ideal for eCommerce sites, and it’s built with SEO-friendly code to enhance your search engine rankings. Additionally, Savona supports RTL (Right To Left) languages, ensuring global accessibility. Demo: https://optimathemes.com/savona-free/demo?ref=demo
+Version: 1.0.26
 Requires at least: 4.7
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
@@ -2977,3 +2977,9 @@ body,
   outline: 0;
 }
 
+
+/*New X icon for twitter*/
+.fa-twitter:before {
+    content: "𝕏" !important;
+    font-size: 1.2em;
+}

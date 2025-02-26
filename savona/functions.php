@@ -67,6 +67,9 @@ function savona_setup() {
 	if ( is_admin() && ('themes.php' == $pagenow) && isset( $_GET['activated'] ) ) {
 		add_action( 'admin_notices', 'savona_activation_notice' );
 	}
+
+	// Enable classic widgets
+	remove_theme_support( 'widgets-block-editor' );
 	
 }
 add_action( 'after_setup_theme', 'savona_setup' );
