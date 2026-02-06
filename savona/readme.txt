@@ -2,10 +2,10 @@
 Contributors: aslamnaik
 Author: Aslam optimathemes.com
 Requires at least: WordPress 4.7
-Tested up to: WordPress 6.7
+Tested up to: WordPress 6.8
 Requires PHP: 5.6
 Stable tag: 1.0.26
-Version: 1.0.26
+Version: 1.0.27
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: blog, e-commerce, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
@@ -54,6 +54,9 @@ Source: https://www.pexels.com/photo/computer-cup-desk-drink-434337/
 
 
 == Changelog ==
+
+= 1.0.27 =
+* Tested upto WordPress 6.8
 
 = 1.0.26 =
 * Updated new twitter X icon
